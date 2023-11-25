@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #002850;
+}
+
+.calculator{
+    border-radius: 25px;
+    background-color: #878c8f;
+    height: 700px;
+    width: 450px;
+    border: 2px solid black;
+}
+
+.center{
+    position: relative;
+    left: 38%;
+    top: 110px;
+}
+
+.clear{
+    background-color: #FF686B;
+    border: none;
+    color: black;
+    font-size: 25px;
+    padding: 18px;
+    position: absolute;
+    top: 155px;
+    left: 8%;
+    width: 372px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.clear:hover{
+    background-color: #ff575a;
+}
+
+.nr{
+    cursor: pointer;
+}
+
+.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .sum, .substract, .decimal, .equal, .divide, .multiply{
+    padding: 30px;
+    width: 80px;
+    height: 90px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.decimal{
+    position: absolute;
+    top: 83%;
+    left: 8%;
+}
+
+.zero{
+    position: absolute;
+    top: 83%;
+    left: 30%;
+}
+
+.equal{
+    position: absolute;
+    top: 83%;
+    left: 52%;
+}
+
+.sum{
+    position: absolute;
+    top: 83%;
+    left: 74%;
+}
+
+.one{
+    position: absolute;
+    top: 67%;
+    left: 8%;
+}
+
+.two{
+    position: absolute;
+    top: 67%;
+    left: 30%;
+}
+
+.three{
+    position: absolute;
+    top: 67%;
+    left: 52%;
+}
+
+.substract{
+    position: absolute;
+    top: 67%;
+    left: 74%;
+}
+
+.four{
+    position: absolute;
+    top: 51%;
+    left: 8%;
+}
+
+.five{
+    position: absolute;
+    top: 51%;
+    left: 30%;
+}
+
+.six{
+    position: absolute;
+    top: 51%;
+    left: 52%;
+}
+
+.multiply{
+    position: absolute;
+    top: 51%;
+    left: 74%;
+}
+
+.seven{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.eight{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.nine{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+}
+
+.divide{
+    position: absolute;
+    top: 35%;
+    left: 74%;
+}
+
+.output{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    border: 2px solid black;
+}
+
+.currentNumber{
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    font-size: 4rem;
+}
+
+.previousNumber{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 1.3rem;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 95%;
+    left: 43%;
+}

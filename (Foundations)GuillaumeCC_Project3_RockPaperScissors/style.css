@@ -1,0 +1,64 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+div {
+    font-size: 30px;
+    
+}
+body {
+    height: 100vh;
+    margin:0%;
+    border-radius: 10%;
+}
+
+button {
+    border-radius: 25px;
+    font-size: 55px;
+    border: 15px solid palevioletred;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    border: 15px solid red;
+    transform: scale(1.05);
+  }
+
+.b1 {
+    background-image: url("paper.png");
+    height: 38vh;
+    width: 38vh;
+    background-size:contain ;}
+
+.b2{
+    background-image: url("scissors.png");
+    height: 38vh;
+    width: 38vh;
+    background-size:contain ;
+   }
+
+.b3 {
+    background-image: url("rock.png") ;
+    height: 38vh;
+    width: 38vh;
+    background-size:contain ;}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+    background-color: rgb(255, 183, 0);
+    height: 15vh;
+    font-size: 40px;
+}
+
+.hidden {
+    height: 70vh;38vhpadding: 1em;
+}
+#prompt, #result {
+padding: 5px;
+}
+

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15rem;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+    margin: auto 0 auto 0;
+
+    .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        button {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 0.5rem;
+        }
+    }
+
+    .select-color {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        .color-picker {
+            width: 5rem;
+            height: 5rem;
+            overflow: hidden;
+            border-radius: 50%;
+
+            input {
+                border: 0;
+                padding: 0;
+                width: 200%;
+                height: 200%;
+                cursor: pointer;
+                transform: translate(-25%, -25%)
+            }
+        }
+
+        input {
+            padding: 0.5rem;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    }
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .githubLogo {
+        width: 3rem;
+        height: auto;
+    }
+}
+
+.grid {
+    width: 35rem;
+    height: 35rem;
+    margin: auto 0 auto 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: grid;
+}
+
+.grid-border {
+    border: 1px solid black;
+}

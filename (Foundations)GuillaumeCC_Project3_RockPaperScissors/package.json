@@ -1,0 +1,19 @@
+{
+  "name": "prs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrissC84/RockPaperScissors-.git"
+  },
+  "author": "KC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrissC84/RockPaperScissors-/issues"
+  },
+  "homepage": "https://github.com/KrissC84/RockPaperScissors-#readme"
+}

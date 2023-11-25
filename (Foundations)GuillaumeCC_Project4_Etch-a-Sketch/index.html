@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <main class="main">
+        <div id="grid" class="grid"></div>
+        <div class="config">
+            <div class="select-gridSize">
+                <input id="sizeSlider" type="range" value="16" min="1" max="64">
+                <p id="sizeSlider-display">16 x 16</p>
+            </div>
+            <div class="tools">
+                <button id="draw">Draw</button>
+                <button id="erase-btn">Earase</button>
+                <p id="erase-display">Eraser : Off</p>
+                <button id="gridLine-btn">Grid Line</button>
+                <p id="gridLine-display">Grid Line : Off</p>
+                <button id="clear-btn">Clear</button>
+                <button id="rainbowBush-btn">Rainbow bush</button>
+                <p id="rainbowBush-display">Rainbow bush : Off</p>
+            </div>
+            <div class="select-color">
+                <div class="color-picker">
+                    <input type="color" value="#000000" id="color-picker">
+                </div>
+                <input type="text" id="custom-hex">
+            </div>
+        </div>
+    </main>
+    <div class="credit">
+        <h2>Copyright © 2023 phegorez</h2>
+        <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" class="githubLogo"
+            alt="githubLogo">
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
