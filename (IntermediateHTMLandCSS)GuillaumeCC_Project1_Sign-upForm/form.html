@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Travel</title>
+</head>
+<body>
+    <div id="header">
+        <img src="lib/cave.jpg" id='header-img' alt="A man standing in a cave">
+        <a href="index.html">
+            <div id="header-box">
+                <img src="lib/odin-lined.png" id='logo' alt="The Odin Project logo">
+                <p id="header-text">Odin Travel</p>
+            </div>
+        </a>
+            <p id="credits">Photo by <a href="https://unsplash.com/@neom" target="_blank">Neom</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+    </div>
+    <div id="content">
+        <div id="intro">
+            <p id="form-text">Sign up</p>
+            <p id="intro-text">Get access to our travel deals and book your dream vacation at the best price</p>
+        </div>
+        <div id="form">
+            <form action="form.html">
+                <div id="form-field">
+                    <div id="form-input">
+                        <label for="first-name">First Name: </label>
+                        <input type="text" name="first-name" required>
+                    </div>
+                    <div id="form-input">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="last-name" required>
+                    </div>
+                </div>
+                <div id="form-field">
+                    <div id="form-input">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div id="form-input">
+                        <label for="phone">Phone Number: </label>
+                        <input type="number" name="phone" minlength="8" maxlength="10">
+                    </div>
+                </div>
+                <div id="form-field" class="pass-field">
+                    <div id="form-input">
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" minlength="5" id="pass" required>
+                    </div>
+                    <div id="form-input">
+                        <label for="password-2">Confirm Password: </label>
+                        <input type="password" name="password-2" minlength="5" id="pass-2" required>
+                    </div>
+                </div>
+                <button type="submit" id="submit-button">Create Account</button>
+            </form>
+        </div>
+        <p id="log-in">Already have an account? <a href="#">Log in</a></p>
+    </div>
+    
+</body>
+</html>
